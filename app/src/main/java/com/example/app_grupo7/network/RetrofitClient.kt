@@ -6,9 +6,9 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitClient {
 
-    // TODO: reemplazar por tu IP real del backend
+    // IP del Backend
     private const val BASE_URL = "http://13.219.43.161:8080/"
-
+    // Para utilizar JSON COMO FORMATO PARA TRABAJAR
     private val gson = GsonBuilder()
         .setLenient()
         .create()

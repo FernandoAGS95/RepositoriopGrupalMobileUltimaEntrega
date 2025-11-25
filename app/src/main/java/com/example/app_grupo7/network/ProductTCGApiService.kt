@@ -21,6 +21,6 @@ interface ProductTCGApiService {
         @Body product: ProductTCG
     ): Response<ProductTCG>
 
-    @DELETE("api/products/{id}")
+    @DELETE("api/productos/{id}")
     suspend fun deleteProduct(@Path("id") id: Long): Response<Void>
 }
